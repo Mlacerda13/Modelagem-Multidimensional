@@ -1,0 +1,22 @@
+Tabela Fato: 
+---------------
+
+São aquelas que nos trazem fatos ou eventos que ocorreram. Exemplos desse tipo de 
+tabela são vendas, saldos, ordens e outros valores quantitativos. Como característica, nossa 
+fTabela normalmente contém milhões de linhas, e está continuamente incluindo registros. 
+Também é muito comum ter uma coluna com informações de data. Outra informação muito 
+importante é que nossa Tabela Fato nos trará a chave conhecida como Primary Key, que será a 
+chave de relação com o nosso outro tipo de tabela.  Esta tabela é o coração do relatório. 
+
+
+-------------------------------------------------------------------------------------------
+
+Tabela Dimensão:
+---------------
+
+São tabelas que vão nos trazer pontos nos quais os fatos serão analisados. Na 
+nossa dTabela, teremos descrições dos eventos que foram trazidos em nossa Tabela Fato, e não 
+seria errado pensar em Tabela Dimensão como cadastros. Também temos nossa coluna Primary 
+Key, chave para fazer o relacionamento entre as tabelas Dimensão e Fato, contendo informações 
+com registros únicos como o ID. Como exemplos de dimensão temos: datas, produtos, países, 
+clientes etc. 
